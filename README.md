@@ -1,9 +1,10 @@
-[![MasterHead](https://1.bp.blogspot....​)](https://rishavchanda.io)
+![MasterHead](https://4.bp.blogspot.com/-6vGvy4vCcvE/Xdcwnaf7XzI/AAAAAAAANZM/Io2mm8SXjmUVCo60byOn-XpLUpn54nizACLcBGAsYHQ/s1600/image1.gif​)
 
-<h1 align="center">Hi 👋, I'm Dimple Malviya</h1>
-<h3 align="center">A passionate web developer from India</h3>
+<h1 align="center">𝐇𝐢 👋,𝐈'𝐦 𝐃𝐢𝐦𝐩𝐥𝐞 𝐌𝐚𝐥𝐯𝐢𝐲𝐚</h1>
+<h3 align="center">𝐀 𝐩𝐚𝐬𝐬𝐢𝐨𝐧𝐚𝐭𝐞 𝐰𝐞𝐛 𝐝𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫 𝐟𝐫𝐨𝐦 𝐈𝐧𝐝𝐢𝐚</h3>
 
-<img align="right" alt="coding"  width="400" src="https://tenor.com/view/coding-gif-4706460855862906629">
+<img align="right" alt="coding"  width="300" height="240"
+ src="https://camo.githubusercontent.com/bef39750d315514a34fbc19ebbbb30f10956d0e6c59071d6f3725688010d4299/68747470733a2f2f6d656469612e74656e6f722e636f6d2f515643314e6d623954775541414141432f636f64696e672e676966">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dimple18760&label=Profile%20views&color=0e75b6&style=flat" alt="dimple18760" /> </p>
 
