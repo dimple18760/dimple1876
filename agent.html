@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COMPLAINT PORTAL</title>
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+    <style>
+      
+.header
+{
+  float: left;
+  background-color:black;
+  height: 820px;
+  width: 235px;
+  margin: 10px;
+  border-radius: 8px;
+
+ }
+ .div
+ {
+    float: left;
+  background-color:blueviolet;
+  height: 160px;
+  width: 280px;
+  margin: 10px;
+  border-radius: 8px;
+}
+.div1
+{
+    float: left;
+   background-color:green;
+  height: 160px;
+  width: 280px;
+  margin: 10px;
+  border-radius: 8px;
+
+}
+.div2
+{
+float: left;
+background-color:red;
+  height: 160px;
+  width: 280px;
+  margin: 10px;
+  border-radius: 8px;
+
+}
+.div3
+{
+    float: left;
+background-color:orange;
+  height: 160px;
+  width: 280px;
+  margin: 10px;
+  border-radius: 8px;
+
+}
+</style>
+
+    
+</head>
+<body>
+    <div class="header">
+      <div class="sidebar">
+        <!-- Sidebar user panel (optional) -->
+        
+        <!-- Sidebar Menu -->
+        <nav class="mt-2">
+          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+            <!-- Add icons to the links using the .nav-icon class
+                 with font-awesome or any other icon font library -->
+            <li class="nav-item ">
+                <i class="nav-icon fas fa-tachometer-alt"></i>
+                <h4 style="color:gray;"><center>
+                  AGENT
+                  <!--<i class="right fas fa-angle-left"></i>-->
+                </h3></center>
+                <div class="d-grid gap-2 col-6 mx-auto">
+                  <button class="btn btn-primary" type="button" value="Dashboard">Dashboard</button>
+                
+                </div>                
+            </li>
+            <li class="nav-item has-treeview ">
+              <a href="?p=logout" class="nav-link ">
+                <i class="nav-icon fa fa-sign-out"></i>
+                <p><center>
+                 <input type="button" class="btn btn-primary" value="logout"> 
+             </p></center>
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /.sidebar-menu -->
+      </div>
+
+    </div>    
+    <h4>DASHBOARD{{id}}</h4>
+    
+    <center><div class="div">TOTAL COMPLAINT<b><h1>{{rec}}</h1></b><a href="/myapp/cview/{{id}}"><p class="text-white">MORE</p></a></div></center>
+    <div class="div1">OPEN COMPLAINT<b><h1>{{emp1}}</h1></b><a href="/myapp/openagent/{{id}}"><p class="text-white">MORE</p></a></div>
+    <div class="div2">CLOSE COMPLAINT<b><h1>{{emp3}}</h1></b><a href="/myapp/closeagent/{{id}}"><p class="text-white">MORE</p></a></div>
+     <div class="div3">HOLD COMPLAINT<b><h1>{{emp4}}</h1></b><a href="/myapp/holdagent/{{id}}"><p class="text-white">MORE</p></a></div>
+ </div>
+
+<a href="/myapp/login"></a>
+</body>
+</html>
